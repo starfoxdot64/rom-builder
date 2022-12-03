@@ -1,19 +1,18 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
-
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+GITHUB_USER=starfoxdot64
+GITHUB_EMAIL=46762446+starfoxdot64@users.noreply.github.com 
+KBUILD_BUILD_USER="Jay"
+KBUILD_BUILD_HOST="myHouse"
 
 export oem=motorola
-export device=harpia
+export device=denver
 
-ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+ROM="dotOS"
+manifest_url="https://github.com/DotOS/manifest"
+export rom_vendor_name="dot" # This represent the names used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="dot12.1"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="starfoxdot64/denverBuild"
 
-timezone="Asia/Kolkata"
+timezone="Pacific/Los Angeles"
